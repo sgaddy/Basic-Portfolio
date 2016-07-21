@@ -49,6 +49,16 @@ article {
 	float: left;
 	margin: 19px 15px 5px 30px ;
 }
+.TextWrapCenter{
+	clear:left;
+	float: left;
+	margin: 0px 15px 5px 65px ;
+}
+.TextWrapRight{
+	clear:left;
+	margin: 0px 15px 5px 146px ;
+	display: inline;
+}
 p {	
 	color: #777;
 	font-size: 15px;
@@ -108,16 +118,17 @@ h3{
 	font-size: 12px;
 	font-weight: none;
 	margin-left: 30px;
+	padding: 20px 0px 5px 0px;
 	
 }
 h4 {
 	margin: 10px 20px 10px 20px;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 	padding: 10px 0px 10px 0px;
 }
 input{
 	margin: 0px 0px 0px 30px;
-	padding: 0px;
+	padding: 5px 0px 0px 0px;
 	border: 1px solid #cccccc;
 
 }
